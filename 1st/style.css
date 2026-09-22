@@ -1,0 +1,15 @@
+body {
+  background-color: rgba(8, 212, 164, 0.681);
+  font-family: Arial;
+}
+
+h1 {
+  color: rgb(0, 0, 0);
+}
+
+img {
+  width: 300px;
+}
+.badalona-img {
+  width: 500px;
+}
