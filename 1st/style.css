@@ -13,3 +13,12 @@ img {
 .badalona-img {
   width: 500px;
 }
+.galeria {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.galeria img {
+  width: 100%;
+}
