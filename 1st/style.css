@@ -1,10 +1,11 @@
 body {
-  background-color: rgba(8, 212, 164, 0.681);
+  background-color: #0d1b2a;
+  color: #e5e5e5;
   font-family: Arial;
 }
 
 h1 {
-  color: rgb(0, 0, 0);
+  color: #d4af37;
 }
 
 img {
@@ -21,4 +22,34 @@ img {
 
 .galeria img {
   width: 100%;
+}
+
+#container1 {
+  display: grid;
+  grid-template-columns: 2fr 3fr 1fr;
+  grid-template-rows: 10vh 90vh;
+  gap: 10px;
+}
+
+.cabecera {
+  grid-column: 1/4;
+  grid-row: 1/2;
+}
+
+.texto {
+  grid-column: 1/3;
+  grid-row: 2/3;
+}
+
+.imagen {
+  grid-column: 3/4;
+  grid-row: 2/3;
+}
+nav a {
+  color: #d4af37;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
 }
